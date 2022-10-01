@@ -16,7 +16,7 @@ body {
 
 .analog {
   background-color: #fff;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2r);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
   width: 200px;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -25,4 +25,51 @@ body {
 
 .num {
   position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  z-index: 50;
+  /* outline: 1px solid red; */
+  transform: var(--rotation);
+}
+
+.hours-needle,
+.minutes-needle,
+.seconds-needle {
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  border-radius: 100vw;
+  transform-origin: bottom;
+  background-color: #ff0000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%) rotate(90deg);
+  z-index: 3;
+}
+
+.minutes-needle {
+  height: 60px;
+  background-color: #161616;
+  transform: translate(-50%, -100%) rotate(45deg);
+  z-index: 2;
+}
+
+.seconds-needle {
+  height: 70px;
+  background-color: #5f9ea0;
+  transform: translate(-50%, -100%) rotate(0);
+  z-index: 1;
+}
+
+.dot {
+  width: 8px;
+  background-color: #161616;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  z-index: 5;
 }
