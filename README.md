@@ -61,7 +61,7 @@ Analog-Digital-Clock(folder)
 
 ### Useful resources
 
-- [W3 Schools](https://www.w3schools.com/) -This is an amazing document which helped me for understanding transform and variables in css.
+- [W3 Schools](https://www.w3schools.com/) -This is an amazing document which helped me to understand transform and variables in css.
  
 
 
