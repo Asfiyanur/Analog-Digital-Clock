@@ -18,12 +18,14 @@
 ## Project Skeleton 
 
 Analog-Digital-Clock(folder)
+```
 
 |----README.md                   
 |----index.html
 |----style.css
 |----app.js
 
+```
 
 ## Screenshot
 <p align="center">
