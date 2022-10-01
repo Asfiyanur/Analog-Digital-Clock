@@ -19,4 +19,7 @@ setInterval(() => {
   seconds_needle.style.transform = `translate(-50%, -100%) rotate(${
     (360 * seconds) / 60
   }deg)`;
+  diigital.innerHTML = ` <span class="hours">${hours}</span>:
+                <span class="minutes">${minutes}</span>:
+                <span class="seconds">${seconds}</span>`;
 }, 1000);
