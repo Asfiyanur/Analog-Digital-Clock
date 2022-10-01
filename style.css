@@ -14,6 +14,13 @@ body {
   background-color: #f1f1f1;
 }
 
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .analog {
   background-color: #fff;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
@@ -72,4 +79,26 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   z-index: 5;
+}
+
+.digital {
+  text-align: center;
+  margin-top: 2rem;
+
+  font-size: 1.8rem;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0.2);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  width: 250px;
+}
+
+.hours {
+  color: #ff0000;
+}
+.minutes {
+  color: #161616;
+}
+.seconds {
+  color: #5f9ea0;
 }
